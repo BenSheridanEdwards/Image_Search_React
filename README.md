@@ -1,3 +1,21 @@
+# Search Images
+
+### Description
+
+Search bar application that displays relevent images to keywords
+
+*More info to come...*
+
+### Mockups
+
+*Mockups coming soon...*
+
+### React App
+
+*Screenshots coming soon...*
+
+### Installation Instructions
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
