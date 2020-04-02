@@ -2,17 +2,21 @@
 
 ### Description
 
-Search bar application that displays relevent images to keywords
+Search bar application that displays relevent images to searched keywords - displayed in a neat grid format. 
 
-*More info to come...*
+### Mockup
 
-### Mockups
-
-*Mockups coming soon...*
+![Search Images Mockup](https://github.com/BenSheridanEdwards/Search_Images_React/blob/master/media/SearchImages-Mockup.png)
 
 ### React App
 
-*Screenshots coming soon...*
+Search for cars: 
+
+![](https://github.com/BenSheridanEdwards/Search_Images_React/blob/master/media/SearchImages-CarsSearch.png)
+
+Search for flowers: 
+
+![](https://github.com/BenSheridanEdwards/Search_Images_React/blob/master/media/SearchImages-FlowersSearch.png)
 
 ### Installation Instructions
 
