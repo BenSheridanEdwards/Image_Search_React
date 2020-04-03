@@ -1,4 +1,4 @@
-# Search Image
+# Image Search
 
 [Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [Application Showcase](#app-showcase) | [Installation Instructions](#installation)
 
@@ -39,8 +39,8 @@ Search for flowers:
 Clone this repository from github then change directory into it.
 
 ```
-$ git clone git@github.com:BenSheridanEdwards/Search_Images_React.git
-$ cd Search_Images_React
+$ git clone git@github.com:BenSheridanEdwards/Image_Search_React.git
+$ cd Image_Search_React
 ```
 
 Then change directory into the React project.
