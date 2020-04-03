@@ -11,11 +11,11 @@ Search bar application that displays relevent images to searched keywords - disp
 ## <a name="user-stories">User Stories</a>
 
 ```
-As a user, when I use Search Image.
+As a user, when I use Image Search.
 I expect to see a search bar, where I can input text to search for the type of images I want to see.
 ```
 ```
-As a user, when I use Search Image. 
+As a user, when I use Image Search. 
 When I have entered a search term and clicked enter to submit the search,
 I expect to see a relevent images, laid out on a flexible grid. 
 ```
