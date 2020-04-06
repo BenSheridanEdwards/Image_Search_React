@@ -1,12 +1,16 @@
 # Image Search
 
+[![CircleCI](https://circleci.com/gh/BenSheridanEdwards/Image_Search_React.svg?style=svg)](https://circleci.com/gh/BenSheridanEdwards/Image_Search_React)
+
 [Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [Application Showcase](#app-showcase) | [Installation Instructions](#installation)
 
 ## <a name="description">Description</a>
 
 Search bar application that displays relevent images to searched keywords - displayed in a neat grid format.
 
-**Tech Stack:** *JavaScript, React, Node, Axios, Webpack, Babel, CSS, HTML*
+**Tech Stack:** *JavaScript, React, Node, CSS, HTML, Webpack, Babel, Axios, CircleCI, Firebase*
+
+You'll find the app [here](https://image-search-react.web.app/), use cmd/window + click to open in a new tab.
 
 ## <a name="user-stories">User Stories</a>
 
