@@ -47,10 +47,6 @@ $ git clone git@github.com:BenSheridanEdwards/Image_Search_React.git
 $ cd Image_Search_React
 ```
 
-Then change directory into the React project.
-```
-cd search-images
-```
 From inside the React project, you can run npm start in the terminal to launch the app:
 
 ```
