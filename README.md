@@ -35,7 +35,7 @@ I expect to see a relevent images, laid out on a flexible grid.
 - Search Bar (Using UnSplash's API)
 - Image Display Grid
 
-![Application Screenrecording](https://github.com/BenSheridanEdwards/Image_Search_React/blob/master/media/ImageSearch-Showcase.gif)
+![Application Screenrecording](https://github.com/BenSheridanEdwards/Image_Search_React/blob/master/media/ImageSearch-AppShowcase.gif)
 
 ## <a name="installation">Installation Instructions</a>
 
