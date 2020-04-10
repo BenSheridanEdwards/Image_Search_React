@@ -26,17 +26,16 @@ I expect to see a relevent images, laid out on a flexible grid.
 
 ## <a name="mockups">Mockups</a>
 
-![Search Images Mockup](https://github.com/BenSheridanEdwards/Search_Images_React/blob/master/media/SearchImages-Mockup.png)
+![Search Images Mockup](https://github.com/BenSheridanEdwards/Image_Search_React/blob/master/media/ImageSearch-Mockup.png)
 
 ## <a name="app-showcase">Application Showcase</a>
 
-Search for cars: 
+### Features
 
-![Image Search Cars](https://github.com/BenSheridanEdwards/Search_Images_React/blob/master/media/SearchImages-CarsSearch.png)
+- Search Bar (Using UnSplash's API)
+- Image Display Grid
 
-Search for flowers: 
-
-![Image Search Flowers](https://github.com/BenSheridanEdwards/Search_Images_React/blob/master/media/SearchImages-FlowersSearch.png)
+![Application Screenrecording](https://github.com/BenSheridanEdwards/Image_Search_React/blob/master/media/ImageSearch-Showcase.gif)
 
 ## <a name="installation">Installation Instructions</a>
 
