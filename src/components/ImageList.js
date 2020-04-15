@@ -7,7 +7,7 @@ const ImageList = (props) => {
     return <ImageCard key={image.id} image={image} />
   });
 
-  return <div className="image-list">{images}</div>;
+  return <div className="image-list" data-test="image">{images}</div>;
 };
 
 export default ImageList;
