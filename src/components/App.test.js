@@ -15,3 +15,15 @@ test('renders without error', () => {
   const appComponent = findByTestAttr(wrapper, 'component-app');
   expect(appComponent.length).toBe(1);
 });
+
+test('renders the SearchBar component', () => {
+  const wrapper = setup()
+  const searchBar = findByTestAttr(wrapper, "component-search-bar")
+  expect(searchBar.text()).toBe("<SearchBar />")
+})
+
+test('renders the ImageList component', () => {
+  const wrapper = setup()
+  const imageList = findByTestAttr(wrapper, "component-image-list")
+  expect(imageList.text()).toBe("<ImageList />")
+})
