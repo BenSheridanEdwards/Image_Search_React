@@ -8,7 +8,7 @@
 
 Search bar application that displays relevent images to searched keywords - displayed in a neat grid format.
 
-*Tech Stack: JavaScript, React, Node, CSS, HTML, Jest, Enzyme, Webpack, Babel, CircleCI, Firebase*
+*Tech Stack: JavaScript, React, Node, CSS, HTML, Jest, Enzyme, Webpack, Babel, CircleCI, Firebase, Code Climate*
 
 You'll find the app [here](https://image-search-react.web.app/), use cmd/window + click to open in a new tab.
 
