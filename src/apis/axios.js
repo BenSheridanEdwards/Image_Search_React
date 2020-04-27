@@ -6,3 +6,4 @@ export default axios.create({
     Authorization: 'Client-ID ' + process.env.REACT_APP_UNSPLASH_TOKEN
   }
 });
+.

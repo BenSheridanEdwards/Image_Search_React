@@ -1,8 +1,8 @@
 import React from 'react';
-import Enzyme, { shallow } from 'enzyme';
+import Enzyme, { shallow, mount } from 'enzyme';
 import { findByTestAttr } from '../test/testUtils';
-
 import App from './App';
+import SearchBar from './SearchBar';
 
 const setup = (props={}, state=null) => {
   const wrapper = shallow(<App {...props} />)
