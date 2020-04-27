@@ -3,6 +3,7 @@ import Enzyme, { shallow, mount } from 'enzyme';
 import { findByTestAttr } from '../test/testUtils';
 import App from './App';
 import SearchBar from './SearchBar';
+import mockAxios from 'axios'
 
 const setup = (props={}, state=null) => {
   const wrapper = shallow(<App {...props} />)
@@ -26,4 +27,27 @@ test('renders the ImageList component', () => {
   const wrapper = setup()
   const imageList = findByTestAttr(wrapper, "component-image-list")
   expect(imageList.text()).toBe("<ImageList />")
+})
+
+it('calls axios and returns images', async () => {
+  mockAxios.get.mockImplementationOnce(() => 
+    Promise.resolve({
+      data: {
+        results: ["cute.jpg"]
+      }
+    })
+  )
+ 
+  const wrapper = setup()
+  const images = await wrapper.instance().onSearchSubmit('kittens')
+  expect(images).toEqual(["cute.jpg"])
+  expect(mockAxios.get).toHaveBeenCalledTimes(1);
+  expect(mockAxios.get).toHaveBeenCalledWith("https://api.unsplash.com/search/photos", 
+    {
+      params: {
+        client_id: process.env.REACT_APP_UNSPLASH_TOKEN,
+        query: "kittens"
+      }
+    }
+  );
 })
