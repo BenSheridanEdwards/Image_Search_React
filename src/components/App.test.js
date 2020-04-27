@@ -40,7 +40,7 @@ it('calls axios and returns images', async () => {
  
   const wrapper = setup()
   const images = await wrapper.instance().onSearchSubmit('kittens')
-  expect(images).toEqual(["cute.jpg"])
+  expect(wrapper.state()).toEqual({"images": ["cute.jpg"]})
   expect(mockAxios.get).toHaveBeenCalledTimes(1);
   expect(mockAxios.get).toHaveBeenCalledWith("https://api.unsplash.com/search/photos", 
     {

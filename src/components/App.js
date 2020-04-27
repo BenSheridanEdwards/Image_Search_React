@@ -4,7 +4,7 @@ import SearchBar from './SearchBar';
 import ImageList from './ImageList';
 
 class App extends React.Component {
-  state = { images: [], onSearchSubmit: this.onSearchSubmit }
+  state = { images: [] }
 
   onSearchSubmit = async (term) => {
     const baseURL = "https://api.unsplash.com"
@@ -15,8 +15,7 @@ class App extends React.Component {
       }
     });
 
-    // this.setState({ images: response.data.results });
-    return response.data.results;
+    this.setState({ images: response.data.results });
   }
 
   render () {
