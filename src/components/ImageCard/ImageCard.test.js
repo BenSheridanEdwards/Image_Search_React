@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import { checkProps, findByTestAttr } from '../test/testUtils';
+import { checkProps, findByTestAttr } from '../../test/testUtils';
 
 import ImageCard from './ImageCard';
 

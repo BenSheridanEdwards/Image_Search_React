@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
-import SearchBar from './SearchBar';
-import ImageList from './ImageList';
+import SearchBar from './components/SearchBar/SearchBar';
+import ImageList from './components/ImageList/ImageList';
 
 class App extends React.Component {
   state = { images: [] }

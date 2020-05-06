@@ -1,8 +1,8 @@
 import React from 'react';
 import Enzyme, { shallow, mount } from 'enzyme';
-import { findByTestAttr } from '../test/testUtils';
+import { findByTestAttr } from './test/testUtils';
 import App from './App';
-import SearchBar from './SearchBar';
+import SearchBar from './components/SearchBar/SearchBar';
 import mockAxios from 'axios'
 
 const setup = (props={}, state=null) => {
